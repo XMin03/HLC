@@ -25,8 +25,10 @@ public class Main {
             case 1:
                 double b=pedirNumero("Dime la base del triangulo");
                 double h=pedirNumero("Dime la altura del triangulo");
+                double l1=pedirNumero("Dime el lado1 del triangulo");
+                double l2=pedirNumero("Dime el lado2 del triangulo");
                 trianguloArea(b,h);
-                trianguloPerimetro(b,h);
+                trianguloPerimetro(b,l1,l2);
                 break;
             case 2:
                 double l=pedirNumero("Dime la base del cuadrado");
