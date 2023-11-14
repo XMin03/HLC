@@ -20,13 +20,56 @@ public class Main {
         pregunta+="\n\t5. Pentagono";
         pregunta+="\n\t6. Hexagono";
         pregunta+="\t0. Exit";
-        int opcion=pedirNumero(pregunta);
+        double opcion=pedirNumero(pregunta);
+        switch (opcion){
+            case 1:
+                int b=pedirNumero("Dime la base del triangulo");
+                int h=pedirNumero("Dime la altura del triangulo");
+                trianguloArea(b,h);
+                trianguloPerimetro(b,h);
+                break;
+            case 2:
+                int l=pedirNumero("Dime la base del cuadrado");
+                cuadradoArea(l);
+                cuadradoPerimetro(l);
+                break;
+            case 3:
+                b=pedirNumero("Dime la base del rectangulo");
+                h=pedirNumero("Dime la altura del rectangulo");
+                rectanguloArea(b,h);
+                rectanguloPerimetro(b,h);
+                break;
+            case 4:
+                int r=pedirNumero("Dime el radio del circulo");
+                circuloArea(r);
+                circuloPerimetro(r);
+                break;
+            case 5:
+                b=pedirNumero("Dime la base del pentagono");
+                h=pedirNumero("Dime la apotema del pentagono");
+                pentagonoArea(b,h);
+                pentagonoPerimetro(b);
+                break;
+            case 6:
+                b=pedirNumero("Dime la base del hexagono");
+                h=pedirNumero("Dime la apotema del hexagono");
+                hexagonoArea(b,h);
+                hexagonoPerimetro(b);
+                break;
+            case 0:
+                break;
+            default:
+                System.out.println("opcion incorrecta");
+        }
+        if (opcion!=0){
+            menu();
+        }
     }
-    public static int pedirNumero(String mensaje){
+    public static double pedirNumero(String mensaje){
         System.out.println(mensaje);
-        int num=0;
+        double num=0;
         try {
-            num= sc.nextInt();
+            num= sc.nextDouble();
             sc.nextLine();
         }catch (Exception e){
             sc.nextLine();
