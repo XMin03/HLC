@@ -23,13 +23,13 @@ public class Main {
         double opcion=pedirNumero(pregunta);
         switch (opcion){
             case 1:
-                int b=pedirNumero("Dime la base del triangulo");
-                int h=pedirNumero("Dime la altura del triangulo");
+                double b=pedirNumero("Dime la base del triangulo");
+                double h=pedirNumero("Dime la altura del triangulo");
                 trianguloArea(b,h);
                 trianguloPerimetro(b,h);
                 break;
             case 2:
-                int l=pedirNumero("Dime la base del cuadrado");
+                double l=pedirNumero("Dime la base del cuadrado");
                 cuadradoArea(l);
                 cuadradoPerimetro(l);
                 break;
@@ -40,7 +40,7 @@ public class Main {
                 rectanguloPerimetro(b,h);
                 break;
             case 4:
-                int r=pedirNumero("Dime el radio del circulo");
+                double r=pedirNumero("Dime el radio del circulo");
                 circuloArea(r);
                 circuloPerimetro(r);
                 break;
