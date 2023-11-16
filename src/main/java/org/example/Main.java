@@ -80,8 +80,10 @@ public class Main {
         return num;
     }
     /**fin codificación: Mattia Lu - 14/11/2023  */
-    public static void trianguloArea(){
-
+    public static double trianguloArea(double b,double h){
+        double res=b*h/2;
+        System.out.println("Area: "+res);
+        return res;
     }
     public static void trianguloPerimetro(){
 
