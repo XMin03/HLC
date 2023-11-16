@@ -80,7 +80,7 @@ public class Main {
         return num;
     }
     /**fin codificación: Mattia Lu - 14/11/2023  */
-    public static double trianguloArea(double b,double h){
+    public static void trianguloArea(){
 
     }
     public static void trianguloPerimetro(){
