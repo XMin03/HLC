@@ -18,8 +18,10 @@ public class Main {
 
     }
     /**fin codificación: Mattia Lu - 14/11/2023  */
-    public static void trianguloArea(){
-
+    public static double trianguloArea(double base, double altura){
+        double resultado = (base *altura) /2;
+        System.out.println(resultado);
+        return resultado;
     }
     public static void trianguloPerimetro(){
 
