@@ -110,22 +110,30 @@ public class Main {
             System.out.println("El perímetro es " + rectangulo);
     }
     /*FIN Jose */
-    public static void circuloArea(){
-
+    /*Inicio Dani*/
+    public static void circuloArea(double radio){
+            double area = Math.PI * (radio * radio);
+            System.out.println("El area es: " + area);
     }
-    public static void circuloPerimetro(){
-
+    public static void circuloPerimetro(double radio){
+            double perimetro = (Math.PI * 2) * radio;
+            System.out.println("El perimetro es: " + perimetro);
     }
-    public static void pentagonoArea(){
-
+    public static void pentagonoArea(double base, double altura){
+            double area = trianguloArea(base, altura) * 5;
+            System.out.println("El area es: " + area);
     }
-    public static void pentagonoPerimetro(){
-
+    public static void pentagonoPerimetro(double apotema){
+            double perimetro = apotema * 5;
+            System.out.println("El perimetro es: " + perimetro) ;
     }
-    public static void hexagonoArea(){
-
+    public static void hexagonoArea(double base, double altura){
+            double area = trianguloArea(base, altura) * 6;
+            System.out.printf("El area es: " + area);
     }
-    public static void hexagonoPerimetro(){
-
+    public static void hexagonoPerimetro(double apotema){
+            double perimetro = apotema * 6;
+            System.out.println("El perimetro es: " + perimetro);
     }
+    /*Fin Dani*/
 }
