@@ -111,7 +111,7 @@ public class Main {
     }
     /*FIN Jose */
     public static void circuloArea(){
-
+        hola
     }
     public static void circuloPerimetro(){
 
