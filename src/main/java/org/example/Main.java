@@ -80,13 +80,18 @@ public class Main {
         return num;
     }
     /**fin codificación: Mattia Lu - 14/11/2023  */
-    public static void trianguloArea(){
+   /*Inicio Jose Manuel*/
+    public static void trianguloArea(double base, double altura){
+
+
 
     }
-    public static void trianguloPerimetro(){
+
+    public double trianguloPerimetro(double lado1, double lado2, double lado3){
+
 
     }
-    public static void cuadradoArea(){
+    public double  cuadradoArea(double lado, double lado2){
 
     }
     public static void cuadradoPerimetro(){
