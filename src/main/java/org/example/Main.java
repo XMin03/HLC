@@ -21,7 +21,7 @@ public class Main {
         pregunta+="\n\t6. Hexagono";
         pregunta+="\t0. Exit";
         double opcion=pedirNumero(pregunta);
-        switch (opcion){
+        switch ((int) opcion){
             case 1:
                 double b=pedirNumero("Dime la base del triangulo");
                 double h=pedirNumero("Dime la altura del triangulo");
