@@ -17,7 +17,15 @@ public class Main {
     public static double pedirNumero(String mensaje){
 
     }
+
+    /*Inicio Jose Manuel*/
+    public static void trianguloArea(double base, double altura){
+
+        double area = (base * altura)/2;
+        System.out.println("El area es " + area);
+
     }
+
     public double trianguloPerimetro(double lado1, double lado2, double lado3){
 
         double perimetro = lado1 * lado2 * lado3;
@@ -30,8 +38,6 @@ public class Main {
             return area;
     }
     public static void cuadradoPerimetro(double longitud1, double longitud2, double longitud3, double longitud4){
-
-
 
 
 
