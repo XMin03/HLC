@@ -17,17 +17,23 @@ public class Main {
     public static double pedirNumero(String mensaje){
 
     }
-    /**fin codificación: Mattia Lu - 14/11/2023  */
-    public static void trianguloArea(){
-
     }
-    public static void trianguloPerimetro(){
+    public double trianguloPerimetro(double lado1, double lado2, double lado3){
 
+        double perimetro = lado1 * lado2 * lado3;
+        System.out.println(perimetro);
+        return perimetro;
     }
-    public static void cuadradoArea(){
+    public double  cuadradoArea(double lado, double lado2){
+            double area = lado * lado;
+            System.out.println("El area es " + area);
+            return area;
+    }
+    public static void cuadradoPerimetro(double longitud1, double longitud2, double longitud3, double longitud4){
 
-    }
-    public static void cuadradoPerimetro(){
+
+
+
 
     }
     public static void rectanguloArea(){
