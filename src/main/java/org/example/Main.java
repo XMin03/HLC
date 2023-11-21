@@ -1,28 +1,22 @@
 package org.example;
 
+import java.util.Scanner;
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
-    /** Inicio codificación: RBG - 14/11/2023  */
+    static Scanner sc=new Scanner(System.in);
+    /** Inicio codificación: Mattia Lu - 14/11/2023  */
     public static void main(String[] args) {
-        // Press Alt+Intro with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-
+        menu();
     }
 
     public static void menu(){
 
     }
-
-    public static int pedirNumero(){
+    public static double pedirNumero(String mensaje){
 
     }
-    //fin codificación: RBG - 14/11/2023  */
-    public static void trianguloArea(double base, double altura){
-
-        double area = (base * altura)/2;
-        System.out.println("El area es " + area);
-
     }
     public double trianguloPerimetro(double lado1, double lado2, double lado3){
 
@@ -66,6 +60,4 @@ public class Main {
     public static void hexagonoPerimetro(){
 
     }
-
-
 }
