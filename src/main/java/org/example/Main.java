@@ -81,33 +81,35 @@ public class Main {
     }
     /**fin codificación: Mattia Lu - 14/11/2023  */
    /*Inicio Jose Manuel*/
-    public static void trianguloArea(double base, double altura){
-
+    public static double trianguloArea(double base, double altura){
         double area = (base * altura)/2;
         System.out.println("El area es " + area);
-
+        return area;
     }
 
-    public double trianguloPerimetro(double lado1, double lado2, double lado3){
-
+    public static void trianguloPerimetro(double lado1, double lado2, double lado3){
         double perimetro = lado1 * lado2 * lado3;
         System.out.println(perimetro);
-        return perimetro;
     }
-    public double  cuadradoArea(double lado, double lado2){
-            double area = lado * lado;
+    public static void  cuadradoArea(double lado){
+            double area = Math.pow(lado, 2);
             System.out.println("El area es " + area);
-            return area;
     }
-    public static void cuadradoPerimetro(){
+    public static void cuadradoPerimetro(double lado){
+            double perimetro = lado*4;
+            System.out.println("El perímetro es " + perimetro);
+    }
 
+    public static void rectanguloArea(double largo, double ancho){
+            double area=  largo * ancho;
+            System.out.println("El área es " + area);
     }
-    public static void rectanguloArea(){
 
+    public static void rectanguloPerimetro(double lado, double ancho ){
+            double rectangulo =lado*2 + ancho*2;
+            System.out.println("El perímetro es " + rectangulo);
     }
-    public static void rectanguloPerimetro(){
-
-    }
+    /*FIN Jose */
     public static void circuloArea(){
 
     }
